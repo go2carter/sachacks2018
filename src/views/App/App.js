@@ -5,8 +5,8 @@ import styled, { ThemeProvider } from 'styled-components'
 import { Router } from '@reach/router'
 
 import store from '../../store'
-import { Default, NotFound } from '../../components'
-import { Scratchpad } from '../../views'
+import { NotFound } from '../../components'
+import { Analytics, Login, Settings, Stream, StyleGuide, Scratchpad } from '../../views'
 import '../../ui/global' // Global Styles
 import theme from '../../ui/theme'
 
@@ -17,8 +17,12 @@ export default class App extends PureComponent {
         <ThemeProvider theme={theme}>
           <App.Styled className='application-root'>
             <Router primary>
-              <Default path='/' />
+              <Stream path='/' />
+              <Analytics path='/analytics' />
+              <Login path='/login' />
+              <Settings path='/user-settings' />
               <Scratchpad path='/scratchpad' />
+              <StyleGuide path='/style-guide' />
               <NotFound default />
             </Router>
           </App.Styled>
