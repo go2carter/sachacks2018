@@ -12,4 +12,6 @@ export default class Stream extends PureComponent {
   }
 }
 
-Stream.Styled = styled.div``
+Stream.Styled = styled.div`
+height: 110px;
+`
