@@ -1,10 +1,15 @@
-# CRA-JP-BoilerPlate
+# LemurNissan - SacHacks 2018
 
-## Other Packages to add
+Sachacks.io - Sacramento Hackathon
 
-- date-fns
+Team: Franklin Carvajal, Carter Brown, Marielle Dnalino, & Manuel Moya
+
+<img width="1124" alt="screen shot 2018-11-18 at 11 06 11 pm" src="https://user-images.githubusercontent.com/12778639/48691342-162d9b00-eb87-11e8-939a-8501efa8ebd3.png">
+
+
+## Packages to add
+
 - typography
-- typography-theme-stern-grove
 
 ### Typography Example
 
